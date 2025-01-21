@@ -151,11 +151,11 @@ Contrary to a variable with local scope, meaning it's context only exists within
 levels of scope within the class. To create a global variable, you just need to create the variable within the top scope of the class, meaning not in any of the functions.
 You can technically do this anywhere in the class, but normally you create global variables at the beginning of the class at the top. Let's create num in global scope:
 
-![img_18.png](img_18.png)
+![img_21.png](img_21.png)
 
 When I do this, you can see that global variable is kind of grayed out, and when I hover over it, it tells me that the variable isn't being used. 
 That's because each function is still using its local variable named num. Let's comment those lines out, so it looks like this:
 
-![img_19.png](img_19.png)
+![img_20.png](img_20.png)
 
 Everything is still valid, but now each function is using the global variable _num_.
