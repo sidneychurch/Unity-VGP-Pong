@@ -6,7 +6,7 @@ Now that we've learned a little bit about the basics of writing scripts in Unity
 
 First let's take a look at our Ball and its Rigidbody component.
 
->[!INFO]
+>[!NOTE]
 > Remember that the Rigidbody component allows the Unity Engine to apply physics to objects with said component.
 
 If we expand it, you should see something like this:
@@ -62,7 +62,7 @@ When looking at the list, you'll see symbols beside each line on the left. This 
 
 If you're interested or need future reference, [you can find documentation here](https://code.visualstudio.com/docs/editor/intellisense#_types-of-completions).
 
->[!INFO]
+>[!NOTE]
 > The reason we can do this is that Rigidbody2D, and other types and components built by the Unity team, are classes. 
 > They are, to an extent, the same as the class that we're working on right now. The big difference is the amount of code.
 > 
@@ -127,7 +127,7 @@ It looks like linearVelocity is what we want to use. It will allow us to have co
 
 So now we know that we want to change _rb.linearVelocity_, but what do we change it to? In the API it says that _linearVelocity_ stores the value of a Vector2.
 
->[!INFO]
+>[!NOTE]
 > You don't _have_ to know this, but I want the information available to you, so you can understand what's going on.
 > 
 > A **vector** is a quantity, such as velocity, completely specified by a magnitude and a direction.
@@ -146,7 +146,7 @@ Let's set it so that we're applying a vector of 0.5 in the Y direction.
 
 ![img_14.png](img_14.png)
 
->[!INFO]
+>[!NOTE]
 > When working with floats in C#, you have to follow your number value with the letter 'f'.
 > That's the main thing you should remember for now. 
 > 
