@@ -11,13 +11,13 @@ First let's take a look at our Ball and its Rigidbody component.
 
 If we expand it, you should see something like this:
 
-![img.png](img.png)
+<img height="70%" src="img.png" width="70%"/>
 
 You'll notice that there a lot of different parameters that we can either type-in or select from a dropdown to help define how this Ball should be interpreted by Unity's physics.
 
 Let's expand Info, at the bottom of the Rigidbody2D component:
 
-![img_1.png](img_1.png)
+<img height="70%" src="img_1.png" width="70%"/>
 
 As you can see there are some additional properties, but we're not able to enter any values. One that would be nice is velocity, which controls how fast it's moving.
 The good news is that, through scripts, we can access all of these properties. Also, instead of relying on hardcoded values (values that won't change) set in the Inspector panel, 
@@ -33,7 +33,7 @@ Let's look at how we would do this.
 First, I'm going to remove all the previous code and comments that were in the BallBehavior script. Feel free to do the same or just comment out the other lines.
 So now I'm starting with this:
 
-![img_2.png](img_2.png)
+<img height="70%" src="img_2.png" width="70%"/>
 
 In order to work with a component, we need to make reference to it. To do this we create a variable of that type.
 Remember that if I wanted to create a variable that would hold the type of a whole number, I would declare it by using the keyword _int_.
@@ -44,7 +44,7 @@ I also want to make sure that I can use this variable anywhere in my script, so 
 As you type out your code, you'll notice that VSCode will try and give you context for things you might be trying to access. As soon as I type in "Ri", 
 it already provides me with a list of possible choices, one being what I want.
 
-![img_3.png](img_3.png)
+<img height="40%" src="img_3.png" width="40%"/>
 
 You can name your variable whatever you like, but you do want it to reflect what it's referring to. I'm calling mine "rb", as an abbreviation of Rigidbody.
 
@@ -53,7 +53,7 @@ You can name your variable whatever you like, but you do want it to reflect what
 Let's go to Start() and try and get this ball moving. I'm first going to reference my variable by name "rb". I'm then going to follow that by a period.
 After you type _rb._ you should see a new context menu.
 
-![img_5.png](img_5.png)
+<img height="70%" src="img_5.png" width="70%"/>
 
 This list contains all the functions and properties associated with Rigidbody2D that we can use. You can scroll through the list and see that there's a lot there.
 When looking at the list, you'll see symbols beside each line on the left. This tells you what kind of data that line is. There are mostly only two in Rigidbody2D, functions and properties.
@@ -83,7 +83,7 @@ We talked a little about Unity's API before, but now we've covered enough materi
 
 [Head here to follow along.](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/)
 
-![img_8.png](img_8.png)
+<img height="50%" src="img_8.png" width="50%"/>
 
 First thing is that you always want to make sure you are on the correct version number. We're using Unity 6.0 and the documentation is for the same version.
 We can tell by looking in the top-left corner. If we were working with a newer or older version of Unity, we could select the version from the dropdown.
@@ -96,11 +96,11 @@ We can tell by looking in the top-left corner. If we were working with a newer o
 If you look at the categories on the left, does anything look familiar? Remember line 1 of our class, "using UnityEngine"?
 The category _UnityEngine_ contains most of what you'll need when working on scripts. If you expand it, you'll see a list of sub-categories.
 
-![img_9.png](img_9.png)
+<img height="50%" src="img_9.png" width="50%"/>
 
 We can scroll down and skip over most of these. Remember when I mentioned that Rigidbody2D was a class built and included in Unity? Well there's a "Classes" sub-category, so let's expand that.
 
-![img_10.png](img_10.png)
+<img height="50%" src="img_10.png" width="50%"/>
 
 Now we can see an alphabetical list of every class that Unity has given us access to. If you scroll down, you'll see Rigidbody2D. Click on it.
 
@@ -211,7 +211,7 @@ Now if you press play, you should see the same behavior as the other method.
 
 Back in VSCode, let's create a variable named speed so that we can play with how fast our ball is moving. It should look like this:
 
-![img_21.png](img_21.png)
+<img height="50%" src="img_21.png" width="50%"/>
 
 Save and head back to Unity. You should notice that now we have access to the speed variable. We gave it a default value of 0.5, but we can change that in the editor.
 This makes a good way to figure out what a good starting speed would be. Let's change the value to 1.

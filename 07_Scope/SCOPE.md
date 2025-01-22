@@ -14,7 +14,7 @@ In C# scope is marked by open and closed curly brackets.
 
 In the code below you'll see that I've added some comments to note the start and end of our class's scope:
 
-![img.png](img.png)
+<img height="70%" src="img.png" width="70%"/>
 
 So all code within those curly brackets are inside (or in scope) to our class. Currently, that contains the Start() and
 Update() functions. You'll also notice that functions also have a scope:
@@ -46,7 +46,7 @@ So my Start() function now looks like this:
 Before we can test it out, we need to save the script. You can do this by going to _File > Save_ or _File > Save All_ if you're
 working on multiple scripts.
 
-![img_3.png](img_3.png)
+<img height="40%" src="img_3.png" width="40%"/>
 
 Now let's head back to Unity.
 
@@ -156,12 +156,12 @@ Contrary to a variable with local scope, meaning it's context only exists within
 levels of scope within the class. To create a global variable, you just need to create the variable within the top scope of the class, meaning not in any of the functions.
 You can technically do this anywhere in the class, but normally you create global variables at the beginning of the class at the top. Let's create num in global scope:
 
-![img_21.png](img_21.png)
+<img height="50%" src="img_21.png" width="50%"/>
 
 When I do this, you can see that global variable is kind of grayed out, and when I hover over it, it tells me that the variable isn't being used. 
 That's because each function is still using its local variable named num. Let's comment those lines out, so it looks like this:
 
-![img_20.png](img_20.png)
+<img height="50%" src="img_20.png" width="50%"/>
 
 Everything is still valid, but now each function is using the global variable _num_.
 

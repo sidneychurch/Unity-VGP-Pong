@@ -12,11 +12,11 @@ Inside of Unity at the bottom, you should see your project's file system.
 * Goto Assets > Scenes.
 * Right-click on the default scene file.
 * Select "Rename" from the context menu.
-    * ![img_1.png](img_1.png)
+    * <img height="70%" src="img_1.png" width="70%"/>
 * Rename the scene
     * I chose just "Pong" cause I'm super creative.
 
-![img_2.png](img_2.png)
+<img height="50%" src="img_2.png" width="50%"/>
 
 You should notice the name of the scene change in the Hierarchy view.
 
@@ -47,9 +47,9 @@ Add a new item, and give it the values seen below. Then click OK.
 
 You should now see the game area and boundary have a more square-like ratio.
 
-![img_8.png](img_8.png)
+<img height="70%" src="img_8.png" width="70%"/>
 
-Now let's make a ball bounce.
+Now let's make a "ball".
 
 ---
 >Prev: [What Makes A Game?](/02_What/WHAT.md)  |  Next: [ Ball bounce ](/04_Ball/BALL.md)

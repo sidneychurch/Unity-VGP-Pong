@@ -17,7 +17,8 @@ We want it to be black to closer reflect the game that we're making.
 
 To change it, select the "Main Camera" in your Hierarchy, left-side.
 Now you should see the Main Camera's properties displayed in the Inspector panel on the right-hand side.
-![img_2.png](img_2.png)
+
+<img height="50%" src="img_2.png" width="50%"/>
 
 In its list of properties, you'll notice a category dropdown named "Environment". Click on it to expand what's available.
 
@@ -25,11 +26,11 @@ In its list of properties, you'll notice a category dropdown named "Environment"
 
 This is where the color of the background in the game is being set. Click on the band of blue beside "Background". This will open a color selection wheel. Click and drag down to the color black or you can manually enter the R,G, and B values of 0, which is pure black.
 
-![img_4.png](img_4.png)
+<img height="20%" src="img_4.png" width="20%"/>
 
 Now, while in the Game tab, you can see that we have a black background.
 
-![img_5.png](img_5.png)
+<img height="70%" src="img_5.png" width="70%"/>
 
 ## Adding A "Ball"
 ***

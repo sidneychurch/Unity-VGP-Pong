@@ -40,7 +40,7 @@ Rename that script to BallBehavior or another descriptive name of what the scrip
 
 Before opening the script, let's make sure that we're set to use VSCode.
 
-![img_5.png](img_5.png)
+<img height="40%" src="img_5.png" width="40%"/>
 
 Using the top menu bar, go to Edit > Preferences. This will open the Preferences window.
 
@@ -56,7 +56,7 @@ You can now close the Preferences window.
 
 Now double-click on the BallBehavior script. This should launch VSCode.
 
-![img_8.png](img_8.png)
+<img height="70%" src="img_8.png" width="70%"/>
 
 When VSCode first launches, you may see a warning dialogue asking if you trust the code.
 I chose to check that I trust all files within my Unity Projects folder so that I wouldn't have to do this for every project. Then click that I trust the authors, which is me in any case.

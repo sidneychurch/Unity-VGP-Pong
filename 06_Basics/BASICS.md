@@ -28,7 +28,7 @@ When you need to make many lines of comments, it's best to use a block comment (
 
 Here's an example:
 
- ![img_1.png](img_1.png)
+<img height="70%" src="img_1.png" width="70%"/>
 
 ## Unity API
 ***
