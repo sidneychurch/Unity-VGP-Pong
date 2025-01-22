@@ -50,6 +50,11 @@ working on multiple scripts.
 
 Now let's head back to Unity.
 
+![img_18.png](img_18.png)
+
+The first thing you may see is a message that scripts are compiling. Each time you save your scripts, Unity needs to 
+recompile them in order to turn those lines of code into something that engine can use.
+
 ![img_4.png](img_4.png)
 
 At the bottom beside our Project tab you'll see the Console tab. Click on that, and then click on the play button to run the game.
@@ -159,3 +164,6 @@ That's because each function is still using its local variable named num. Let's 
 ![img_20.png](img_20.png)
 
 Everything is still valid, but now each function is using the global variable _num_.
+
+> ---
+>Prev: [Unity Script Basics](/06_Basics/BASICS.md)  |  Next: [Ball Movement (Finally)](/08_Move/MOVE.md)

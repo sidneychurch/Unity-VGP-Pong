@@ -1,4 +1,4 @@
-# Video Game Prototyping With Unity - _Pong_
+# Video Game Prototyping With Unity - _Pong_ Part 1
 
 ![img.png](img.png)
 
@@ -20,6 +20,7 @@ Then we'll look at how we can extend the concepts of the simple game into someth
 * [Scripts](/05_Scripts/SCRIPTS.md)
 * [Unity Script Basics](/06_Basics/BASICS.md)
 * [Scope](/07_Scope/SCOPE.md)
+* [Ball Movement (Finally)](/08_Move/MOVE.md)
 
 
 
