@@ -54,6 +54,7 @@ Now you should see a white square added to the game scene. You should also see a
 ## Testing Your Game
 ***
 ![img_7.png](img_7.png)
+
 At any point, we can test our game. At the top-center you can see some buttons. Whenever you click on the play button, your game will launch so that you can see it in its current state, and you'll be automatically taken to the Game tab.
 While your game is running, you can't make changes, but you can use it as a way of testing (more on this later).
 
@@ -68,7 +69,7 @@ If you run the game as is, you'll notice that it's just a static, white square o
 
 We need to tell Unity that our Ball is meant to move and not just be a static image. To do that we need to add a component to our Ball.
 
->[!INFO]
+>[!NOTE]
 > Components in Unity add additional functionality to an object. You'll see that Unity has a number of built-in components.
 
 Select the ball by clicking on it in the Hierarchy or in the scene. Now at the bottom of the Inspector panel you'll find a button named "Add Component".
@@ -83,7 +84,7 @@ You can find and select it in the component window by going to Physics 2D > Rigi
 Just be sure that you choose Rigidbody 2D, since Rigidbody is meant for 3D objects.
 After you select it, you'll see through the Inspector panel that our Ball now has a Rigidbody 2D component.
 
->[!INFO]
+>[!NOTE]
 > What's a Rigidbody Component do?
 > "Adding a Rigidbody component to an object will put its motion under the control of Unity's physics engine. Even without adding any code, a Rigidbody object will be pulled downward by gravity..."
 > 
