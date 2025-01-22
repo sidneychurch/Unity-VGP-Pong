@@ -199,7 +199,12 @@ Save the script and head to Unity. Click on the Ball, and look at the Inspector 
 ![img_19.png](img_19.png)
 
 When you make a variable public in Unity it also exposes that variable to the Inspector panel. This is extremely helpful and something that we'll use often.
-In order to assign a value to Rb, you can drag and drop the rigidbody2D component in the Ball to that area. Then it should look like this:
+In order to assign a value to Rb, you can drag and drop the rigidbody2D component in the Ball to that area.
+
+<img height="50%" src="drag.gif" width="50%"/>
+
+
+Then it should look like this:
 
 ![img_20.png](img_20.png)
 
