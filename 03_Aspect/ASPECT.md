@@ -52,4 +52,4 @@ You should now see the game area and boundary have a more square-like ratio.
 Now let's make a "ball".
 
 ---
->Prev: [What Makes A Game?](/02_What/WHAT.md)  |  Next: [ Ball bounce ](/04_Ball/BALL.md)
+>Prev: [What Makes A Game?](/02_What/WHAT.md)  |  Next: [ Adding A Ball ](/04_Ball/BALL.md)
