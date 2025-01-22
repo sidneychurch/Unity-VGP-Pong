@@ -38,7 +38,7 @@ You should now be back in the Scene tab.
 
 Unity has a built-in way of creating basic assets, so we don't have to create everything from a separate program. Just about all 2D games are made from images that are referred to as a sprites.
 
->[!INFO]
+>[!NOTE]
 > You can think of a sprite as any digital 2D image. As long as the image is made up of pixels, it's a sprite. We'll get a little more technical about this later on.
 
 To replicate the ball from the original Pong, we need to add a white, square sprite to our game.
