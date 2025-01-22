@@ -70,7 +70,7 @@ We'll cover this more later, but know that everytime you create a script in Unit
 
 Nothing super special about this. It's just the name that we gave the script.
 
->[!Note]
+>[!NOTE]
 > To stay with naming conventions, your script name should always start with a capital letter. You also want to make sure that the name of your script is descriptive of what it does or is for.
 > This may mean that you need to use multiple words in your script name. When you do this, combine all the words with no spaces, and capitalize the first letter of each word. You can see this in my script named _BallBehavior_.
 > When naming your scripts, try to be as descriptive as you can, while using as few words as you can. You don't want it to be crazy-long, such as _BallMovementAndOtherStuffRelatingToHowTheBallWillMove_.
@@ -85,7 +85,7 @@ You don't have to worry too much about this. Just make sure you don't change it 
 If you're curious as to what it means, basically it means that your class is inheriting from another class called _Monobehavior_. 
 This gives us access to a bunch of stuff that the folks at Unity already put together to make working in their engine easier.
 
->[!INFO]
+>[!NOTE]
 > MonoBehaviour is a base class that many Unity scripts derive from.
 > MonoBehaviour offers life cycle functions that make it easier to develop with Unity.
 > 
