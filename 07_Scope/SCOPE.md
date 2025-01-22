@@ -10,6 +10,7 @@ In C# scope is marked by open and closed curly brackets.
 
 >[!TIP]
 > { is the beginning of a scope
+>
 > } is the end of a scope
 
 In the code below you'll see that I've added some comments to note the start and end of our class's scope:
